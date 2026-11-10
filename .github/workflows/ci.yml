@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Mesma linha do Flutter usada no APK original (Dart 3.13).
+  FLUTTER_VERSION: 3.47.x
+
+jobs:
+  qualidade:
+    name: Análise e testes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+
+  # Roda separado da análise: o APK sai mesmo se um teste ou lint falhar.
+  apk:
+    name: Gerar e publicar APK
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+      - run: flutter pub get
+      - run: flutter build apk --release
+      - name: Renomear APK
+        run: cp build/app/outputs/flutter-apk/app-release.apk DengueZero.apk
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dengue-zero-apk
+          path: DengueZero.apk
+          if-no-files-found: error
+      # Publica o APK em "Releases". O link
+      # https://github.com/<dono>/<repo>/releases/latest/download/DengueZero.apk
+      # sempre aponta para a versão mais recente.
+      - name: Publicar release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          versao=$(grep -E '^version:' pubspec.yaml | awk '{print $2}' | cut -d+ -f1)
+          tag="v${versao}-build${{ github.run_number }}"
+          gh release create "$tag" DengueZero.apk \
+            --repo "${{ github.repository }}" \
+            --target "${{ github.sha }}" \
+            --title "DengueZero ${versao} (build ${{ github.run_number }})" \
+            --notes "APK para Android. Baixe o arquivo DengueZero.apk abaixo e instale no celular." \
+            --latest

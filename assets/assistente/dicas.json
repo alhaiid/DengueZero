@@ -1,0 +1,21 @@
+{
+  "dica_padrao": "Dica: leia a pergunta com calma e pense no que você já sabe sobre os hábitos do mosquito e recipientes de água.",
+  "dicas_por_categoria": {
+    "criadouros": "Dica: lembre-se de que a fêmea do Aedes aegypti prefere locais com água limpa ou pouco turva e parada para colar seus ovos.",
+    "prevencao": "Dica: pense na importância de eliminar os ovos nas bordas e em medidas que quebram o ciclo semanal do mosquito."
+  },
+  "dicas_por_pergunta": {
+    "criadouro_01": "Dica: o Aedes aegypti prefere recipientes artificiais com água limpa e sem correnteza forte.",
+    "criadouro_02": "Dica: os ovos têm uma casca super resistente à dessecação e aguentam muitos meses até a próxima chuva.",
+    "criadouro_03": "Dica: preencher o espaço com algo sólido impede o acúmulo de água livre.",
+    "criadouro_04": "Dica: o formato de pneu acumula água da chuva com facilidade e cria sombra, que o mosquito adora.",
+    "criadouro_05": "Dica: a caixa d'água deve ficar totalmente vedada para não dar passagem ao mosquito.",
+    "criadouro_06": "Dica: folhas secas entopem canais no telhado criando represamento sem ninguém ver do chão.",
+    "prevencao_01": "Dica: a prevenção mais poderosa ataca a causa raiz: eliminar os recipientes onde as larvas nascem.",
+    "prevencao_02": "Dica: apenas esvaziar não desprende os ovos que ficam grudados na parede do recipiente; é preciso esfregar.",
+    "prevencao_03": "Dica: do ovo até o mosquito voar leva cerca de uma semana a dez dias.",
+    "prevencao_04": "Dica: quando o foco está em área pública ou privada vizinha, a vigilância em saúde ambiental da prefeitura deve ser acionada.",
+    "prevencao_05": "Dica: redes e telas criam uma barreira física que bloqueia a entrada do inseto.",
+    "prevencao_06": "Dica: se a garrafa ficar virada com a boca para baixo, a chuva não consegue entrar."
+  }
+}

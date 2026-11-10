@@ -1,0 +1,158 @@
+[
+  {
+    "id": "criadouro_01",
+    "enunciado": "Em quais condições a fêmea do Aedes aegypti prefere depositar seus ovos?",
+    "alternativas": [
+      "Em terra seca e profunda",
+      "Em água limpa ou pouco turva e parada, colados nas paredes dos recipientes",
+      "Em água com correnteza forte de rios e cachoeiras",
+      "Diretamente no ar e folhas secas"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "A fêmea do mosquito deposita seus ovos na parede interna de recipientes artificiais com água parada e limpa, logo acima do nível da água.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_02",
+    "enunciado": "Quanto tempo o ovo do mosquito Aedes aegypti pode sobreviver em local seco esperando contato com a água?",
+    "alternativas": [
+      "Apenas 2 horas",
+      "No máximo 3 dias",
+      "Mais de 1 ano (até 450 dias)",
+      "Não sobrevive nem 1 minuto fora d'água"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "Os ovos são extremamente resistentes ao ressecamento e podem sobreviver por mais de um ano em superfícies secas, eclodindo rapidamente quando a água volta.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_03",
+    "enunciado": "Qual é a melhor forma de evitar que os pratinhos de vasos de plantas se tornem criadouros?",
+    "alternativas": [
+      "Colocar areia grossa até a borda do prato",
+      "Deixar o prato cheio de água com sal uma vez ao mês",
+      "Borrifar perfume no pratinho",
+      "Cobrir o vaso com plástico filme frouxo"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "Preencher o pratinho com areia grossa até a borda impede o acúmulo de água livre, sem prejudicar a rega da planta.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_04",
+    "enunciado": "Por que pneus velhos deixados no quintal representam perigo crítico na proliferação da dengue?",
+    "alternativas": [
+      "Porque a borracha atrai o mosquito pelo cheiro",
+      "Porque acumulam água de chuva com facilidade e oferecem sombra e proteção aos ovos",
+      "Porque os mosquitos se alimentam da tinta dos pneus",
+      "Porque os pneus aquecem o solo repelindo outros insetos predadores"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "O formato curvado do pneu retém água da chuva que dificilmente seca sozinha, além de criar um ambiente sombreado perfeito para as larvas.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_05",
+    "enunciado": "Como deve ser feita a manutenção correta da caixa d'água residencial?",
+    "alternativas": [
+      "Deixar entreaberta para circular o ar",
+      "Manter 100% vedada com tampa apropriada e sem rachaduras",
+      "Lavar apenas a cada 5 anos com mangueira de pressão",
+      "Colocar plantas aquáticas para filtrar a água"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "A caixa d'água deve permanecer perfeitamente fechada e sem aberturas. Uma fresta mínima permite a entrada e reprodução de milhares de mosquitos.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_06",
+    "enunciado": "Por que calhas de telhado e ralos externos merecem atenção e inspeção regular?",
+    "alternativas": [
+      "Porque folhas e galhos entopem a descida e criam poças invisíveis a partir do chão",
+      "Porque o ferro da calha é o nutriente favorito do mosquito",
+      "Porque a altura protege os mosquitos do vento",
+      "Não precisam de atenção, pois o sol seca qualquer poça no telhado"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "O acúmulo de folhas impede o escoamento, criando bolsões de água parada que não são vistos de baixo sem uma inspeção atenta.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "prevencao_01",
+    "enunciado": "Qual é a medida comunitária mais eficaz para conter epidemias de dengue?",
+    "alternativas": [
+      "Usar inseticida aerosol em todos os cômodos todos os dias",
+      "Eliminar regularmente potenciais criadouros de água parada nas residências e bairros",
+      "Tomar vitaminas para fortalecer a imunidade contra a picada",
+      "Manter ventiladores ligados durante todo o dia"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "A remoção mecânica e semanal de focos de reprodução elimina os mosquitos antes mesmo que se tornem adultos voadores.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_02",
+    "enunciado": "Ao limpar recipientes de água de animais de estimação, qual cuidado indispensável deve ser tomado?",
+    "alternativas": [
+      "Apenas trocar a água jogando a velha no chão",
+      "Esfregar as paredes internas com bucha/esponja e sabão semanalmente",
+      "Adicionar desinfetante forte na água do pet",
+      "Trocar o pote de plástico por um de barro sem lavar"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Apenas despejar a água não remove os ovos colados na parede interna do pote. É preciso esfregar bem para descolar e eliminar os ovos.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_03",
+    "enunciado": "Por que a campanha de saúde recomenda '10 minutos semanais' para verificar a casa?",
+    "alternativas": [
+      "Porque o mosquito voa apenas 10 minutos ao dia",
+      "Porque o ciclo de vida do ovo ao mosquito adulto dura entre 7 e 10 dias",
+      "Porque produtos de limpeza perdem o efeito após 10 minutos",
+      "Porque a vigilância sanitária multa casas após 10 minutos"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Como o mosquito leva de 7 a 10 dias para virar adulto, uma vistoria a cada 7 dias interrompe o ciclo antes do mosquito voar e transmitir o vírus.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_04",
+    "enunciado": "O que fazer se você notar recipientes com lixo e água acumulada em um terreno baldio vizinho?",
+    "alternativas": [
+      "Queimar o lixo no meio do terreno por conta própria",
+      "Acionar a prefeitura ou serviço de vigilância ambiental da sua cidade",
+      "Ignorar, pois não é dentro da sua propriedade",
+      "Cobrir o terreno com terra sem retirar o lixo"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Os canais oficiais de vigilância em saúde ambiental da cidade têm agentes e competência legal para intimar proprietários e recolher os focos.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_05",
+    "enunciado": "Como funcionam telas protetoras em janelas e mosquiteiros na prevenção da dengue?",
+    "alternativas": [
+      "Elas eliminam os ovos depositados na rua",
+      "Atuam como barreira física, impedindo que o mosquito entre nos cômodos para picar",
+      "Emanam ondas de calor que espantam os mosquitos",
+      "Capturam mosquitos como armadilhas pegajosas"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Telas e mosquiteiros protegem as pessoas criando uma barreira física contra picadas, complementando a eliminação de criadouros.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_06",
+    "enunciado": "Garrafas e potes de vidro guardados no quintal devem ficar posicionados de qual maneira?",
+    "alternativas": [
+      "Em pé e abertos para ventilar",
+      "Com a boca virada para baixo e sob abrigo coberto",
+      "Cheios de terra até a metade",
+      "Amarrados em árvores e muros"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Guardar garrafas viradas de boca para baixo garante que nenhuma gota de água de chuva consiga se acumular no interior delas.",
+    "categoria": "prevencao"
+  }
+]
