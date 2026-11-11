@@ -13,6 +13,13 @@ traz três mudanças em relação a ele:
    o passo a passo do quiz e o sistema de pontuação. O botão "Pedir Dica" do
    quiz continua funcionando.
 
+## Novidades da versão 1.2.0
+
+- Banco com **36 perguntas** (18 de criadouros e 18 de prevenção).
+- Cada partida **sorteia 12**, sempre 6 de cada tema, em ordem aleatória.
+- As alternativas são **embaralhadas** a cada partida, então a resposta certa
+  muda de letra.
+
 ## Baixar o APK
 
 Link direto da versão mais recente:
@@ -51,7 +58,7 @@ e o Android não deixa instalar por cima.
 | Resposta certa | +10 |
 | Resposta errada | 0 (não perde pontos) |
 | Pedir dica | 0 (não desconta) |
-| Máximo por partida | 120 (12 perguntas × 10) |
+| Máximo por partida | 120 (12 perguntas sorteadas × 10) |
 
 Os pontos de cada partida somam na "Pontuação Conquistada" da tela inicial,
 guardada só no celular.
@@ -86,10 +93,10 @@ lib/
     servicos.dart, navegacao.dart, tema/
   features/
     home/        tela inicial
-    quiz/        quiz, resultado, leitura das perguntas e pontuação
+    quiz/        quiz, resultado, sorteio da partida, perguntas e pontuação
     assistente/  guia "Como Jogar", dicas do quiz, privacidade e fontes
 assets/
-  quiz/perguntas.json
+  quiz/perguntas.json      banco de 36 perguntas
   assistente/dicas.json
 ```
 

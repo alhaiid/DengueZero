@@ -2,9 +2,10 @@ name: dengue_zero
 description: "DengueZero: app educativo de combate ao mosquito da dengue."
 publish_to: 'none'
 
-# 1.0.0+1 era a versão do APK original. Esta é a versão recriada, sem as
-# Missões de Algoritmo e com o guia "Como Jogar" no lugar do chat.
-version: 1.1.0+2
+# 1.0.0+1 era a versão do APK original. 1.1.0 recriou o app sem as Missões de
+# Algoritmo e com o guia "Como Jogar". 1.2.0 sorteia partidas de 12 perguntas
+# de um banco de 36 e embaralha as alternativas.
+version: 1.2.0+3
 
 environment:
   sdk: ^3.13.0

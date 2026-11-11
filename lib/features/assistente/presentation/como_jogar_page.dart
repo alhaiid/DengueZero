@@ -1,6 +1,7 @@
 import 'package:dengue_zero/core/contracts/regras_pontuacao.dart';
 import 'package:dengue_zero/core/contracts/rotas.dart';
 import 'package:dengue_zero/core/servicos.dart';
+import 'package:dengue_zero/features/quiz/domain/sorteio_partida.dart';
 import 'package:flutter/material.dart';
 
 /// Assistente Local: mini guia de como jogar e de como os pontos são contados.
@@ -15,7 +16,8 @@ class ComoJogarPage extends StatefulWidget {
 }
 
 class _ComoJogarPageState extends State<ComoJogarPage> {
-  /// Quantidade de perguntas do quiz. Fica nulo até carregar, ou se falhar.
+  /// Quantidade de perguntas de uma partida. Fica nulo até carregar, ou se
+  /// falhar.
   int? _totalPerguntas;
 
   @override
@@ -28,7 +30,7 @@ class _ComoJogarPageState extends State<ComoJogarPage> {
     int total;
     try {
       final perguntas = await Servicos.quiz.carregarPerguntas();
-      total = perguntas.length;
+      total = SorteioPartida.tamanhoDaPartida(perguntas);
     } catch (_) {
       // Sem o total, o guia mostra os textos sem os números da partida.
       return;
@@ -78,8 +80,9 @@ class _ComoJogarPageState extends State<ComoJogarPage> {
                   texto: total == null
                       ? 'Na tela inicial, toque em “Jogar Quiz”. As perguntas '
                             'são sobre criadouros e prevenção.'
-                      : 'Na tela inicial, toque em “Jogar Quiz”. São $total '
-                            'perguntas sobre criadouros e prevenção.',
+                      : 'Na tela inicial, toque em “Jogar Quiz”. Cada partida '
+                            'sorteia $total perguntas sobre criadouros e '
+                            'prevenção.',
                 ),
                 const _Passo(
                   numero: 2,
@@ -135,6 +138,12 @@ class _ComoJogarPageState extends State<ComoJogarPage> {
                         '${RegrasPontuacao.pontuacaoMaxima(total)} pontos '
                         '($total perguntas × $pontos pontos).',
                   ),
+                const _Regra(
+                  icone: Icons.shuffle,
+                  texto:
+                      'A cada partida, as perguntas e a ordem das alternativas '
+                      'mudam. Vale jogar de novo!',
+                ),
                 const _Regra(
                   icone: Icons.loop,
                   texto:

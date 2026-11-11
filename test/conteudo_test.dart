@@ -5,6 +5,7 @@ import 'dart:io';
 
 import 'package:dengue_zero/core/contracts/modelos.dart';
 import 'package:dengue_zero/features/assistente/data/assistente_service_local.dart';
+import 'package:dengue_zero/features/quiz/domain/sorteio_partida.dart';
 import 'package:dengue_zero/features/quiz/data/quiz_service_json.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -22,16 +23,20 @@ void main() {
     );
   });
 
-  test('o quiz tem 12 perguntas, 6 de cada categoria', () {
-    expect(perguntas, hasLength(12));
+  test('o banco tem 36 perguntas, 18 de cada categoria', () {
+    expect(perguntas, hasLength(36));
     expect(
       perguntas.where((p) => p.categoria == Categoria.criadouros),
-      hasLength(6),
+      hasLength(18),
     );
     expect(
       perguntas.where((p) => p.categoria == Categoria.prevencao),
-      hasLength(6),
+      hasLength(18),
     );
+  });
+
+  test('com este banco, cada partida tem 12 perguntas', () {
+    expect(SorteioPartida.tamanhoDaPartida(perguntas), 12);
   });
 
   test('não sobrou pergunta de lógica de programação', () {
@@ -42,11 +47,17 @@ void main() {
     );
   });
 
-  test('ids únicos e quatro alternativas por pergunta', () {
+  test('ids únicos e quatro alternativas diferentes por pergunta', () {
     expect(perguntas.map((p) => p.id).toSet(), hasLength(perguntas.length));
     for (final pergunta in perguntas) {
       expect(pergunta.alternativas, hasLength(4), reason: pergunta.id);
+      expect(pergunta.alternativas.toSet(), hasLength(4), reason: pergunta.id);
     }
+  });
+
+  test('enunciados não se repetem', () {
+    final enunciados = perguntas.map((p) => p.enunciado.toLowerCase());
+    expect(enunciados.toSet(), hasLength(perguntas.length));
   });
 
   test('toda pergunta tem dica própria no banco do assistente', () {

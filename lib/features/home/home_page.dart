@@ -87,8 +87,8 @@ class _HomePageState extends State<HomePage> with RouteAware {
               icone: Icons.psychology,
               titulo: 'Quiz DengueZero',
               descricao:
-                  '12 perguntas divididas em Criadouros e Prevenção. '
-                  'Teste seus conhecimentos e peça dicas!',
+                  'Partidas de 12 perguntas sorteadas sobre Criadouros e '
+                  'Prevenção. Teste seus conhecimentos e peça dicas!',
               rotuloBotao: 'Jogar Quiz',
               iconeBotao: Icons.play_arrow,
               onPressed: () => _navegarPara(Rotas.quiz),

@@ -78,6 +78,162 @@
     "categoria": "criadouros"
   },
   {
+    "id": "criadouro_07",
+    "enunciado": "Quem tem bromélias ou outras plantas que juntam água entre as folhas deve fazer o quê?",
+    "alternativas": [
+      "Lavar ou regar a planta com jato de água para tirar a água acumulada, duas vezes por semana",
+      "Nada, porque plantas naturais nunca viram criadouro",
+      "Regar só uma vez por mês para a água não acumular",
+      "Colocar açúcar na água das folhas para espantar o mosquito"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "As folhas das bromélias formam pequenos reservatórios de água. O Ministério da Saúde orienta lavar essas plantas duas vezes por semana ou trocá-las por espécies que não acumulam água.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_08",
+    "enunciado": "O que fazer com cacos de vidro no alto de muros, que podem acumular água da chuva?",
+    "alternativas": [
+      "Pintar os cacos com tinta colorida",
+      "Lavar os cacos com sabão uma vez por ano",
+      "Deixar como estão, porque o sol seca tudo no muro",
+      "Preencher os espaços entre os cacos com areia ou massa de cimento"
+    ],
+    "indiceCorreta": 3,
+    "explicacao": "Os cacos formam pequenos buracos que guardam água da chuva. Preencher com areia ou massa elimina esses pontos de água parada, como recomenda o Ministério da Saúde.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_09",
+    "enunciado": "Qual cuidado a bandeja externa da geladeira (aquela atrás do aparelho) precisa?",
+    "alternativas": [
+      "Nenhum, porque a água da geladeira é fria demais para o mosquito",
+      "Encher a bandeja com água sanitária pura todos os dias",
+      "Retirar a água acumulada e lavar a bandeja com água e sabão regularmente",
+      "Desligar a geladeira uma vez por semana"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "A bandeja recolhe a água do degelo e costuma ser esquecida. O Ministério da Saúde inclui a retirada da água e a lavagem com água e sabão entre os passos para eliminar focos.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_10",
+    "enunciado": "Como evitar que a laje da casa vire criadouro do mosquito?",
+    "alternativas": [
+      "Usar a laje para guardar baldes e garrafas abertas",
+      "Manter a laje limpa e sem poças, corrigindo desníveis onde a água fica parada",
+      "Molhar a laje todos os dias para refrescar a casa",
+      "Cobrir a laje com uma lona solta e frouxa"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Lajes com desníveis ou entulho seguram água da chuva por vários dias. Manter limpa e sem poças está entre as orientações do Ministério da Saúde.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_11",
+    "enunciado": "Tambores, tonéis e baldes usados para guardar água devem ficar como?",
+    "alternativas": [
+      "Abertos, para a água respirar",
+      "Tampados só nos fins de semana",
+      "Com um pano solto por cima, sem prender",
+      "Sempre bem tampados ou cobertos com tela, com as paredes internas esfregadas na limpeza"
+    ],
+    "indiceCorreta": 3,
+    "explicacao": "Os depósitos de água para consumo estão entre os principais criadouros encontrados pelo Ministério da Saúde. Tampa bem ajustada impede a entrada da fêmea, e esfregar remove os ovos colados.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_12",
+    "enunciado": "O que fazer com tampinhas, copos descartáveis e embalagens vazias no quintal?",
+    "alternativas": [
+      "Colocar em saco de lixo bem fechado e manter a lixeira tampada",
+      "Juntar tudo num canto do quintal para jogar fora depois",
+      "Enterrar só até a metade",
+      "Deixar virados para cima para secar no sol"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "Até uma tampinha de garrafa acumula água suficiente para o mosquito. O Ministério da Saúde orienta amarrar bem os sacos de lixo e não descartar resíduos em terrenos ou na rua.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_13",
+    "enunciado": "Como deve ficar uma lona usada para cobrir entulho, lenha ou material de construção?",
+    "alternativas": [
+      "Frouxa, para o vento circular por baixo",
+      "Bem esticada e presa, sem dobras que acumulem água",
+      "Com furos no meio para a água escorrer para o material",
+      "Dobrada em várias camadas por cima"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Lonas frouxas formam dobras e bolsões onde a água da chuva fica parada por dias. Esticar e prender bem evita esses pontos.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_14",
+    "enunciado": "Ralos de banheiro, área de serviço ou quintal que quase não são usados devem ficar como?",
+    "alternativas": [
+      "Abertos e sem tampa, para ventilar o encanamento",
+      "Entupidos com papel",
+      "Fechados ou cobertos com tela, e desentupidos",
+      "Cheios de água parada para evitar mau cheiro"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "Ralos pouco usados guardam água parada no fundo. O Ministério da Saúde orienta desentupir os ralos e mantê-los fechados ou com tela.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_15",
+    "enunciado": "Antes de viajar ou em um banheiro pouco usado, qual cuidado o vaso sanitário precisa?",
+    "alternativas": [
+      "Deixar a tampa levantada para arejar",
+      "Encher o vaso com sabão em pó e deixar assim por meses",
+      "Manter a tampa fechada e dar descarga pelo menos uma vez por semana",
+      "Nenhum, porque a água do vaso nunca vira criadouro"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "A água do vaso sem uso fica parada. Com a tampa fechada a fêmea não entra, e a descarga semanal troca a água antes que as larvas virem mosquito.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_16",
+    "enunciado": "Qual é o cuidado certo com uma piscina, principalmente quando ela fica sem uso?",
+    "alternativas": [
+      "Deixar a água parada sem tratamento até o próximo verão",
+      "Manter a água tratada com cloro e limpa, ou cobrir bem a piscina",
+      "Colocar plantas aquáticas para enfeitar",
+      "Esvaziar até a metade e deixar descoberta"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Piscinas sem tratamento aparecem na lista de depósitos que viram criadouro. A água tratada e limpa, ou a piscina bem coberta, impede a reprodução do mosquito.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_17",
+    "enunciado": "Ocos de árvores e bambus cortados no quintal podem acumular água. O que fazer?",
+    "alternativas": [
+      "Preencher os buracos com areia ou terra",
+      "Regar o oco da árvore toda semana",
+      "Cobrir o bambu com plástico frouxo",
+      "Nada, porque criadouro natural não oferece risco"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "Ocos de árvores e cercas de bambu estão na lista de criadouros da vigilância em saúde. Preencher com areia ou terra impede que a água fique acumulada.",
+    "categoria": "criadouros"
+  },
+  {
+    "id": "criadouro_18",
+    "enunciado": "Você achou pequenas larvas se mexendo na água de um balde. O que fazer?",
+    "alternativas": [
+      "Trocar só a água e encher o balde de novo",
+      "Deixar como está, porque larva não pica",
+      "Cobrir com um pano e olhar de novo daqui a um mês",
+      "Esvaziar o balde, esfregar as paredes por dentro e guardá-lo virado para baixo ou tampado"
+    ],
+    "indiceCorreta": 3,
+    "explicacao": "Larvas na água indicam um criadouro ativo. Esvaziar elimina as larvas, esfregar tira os ovos colados na parede e guardar virado impede que o balde junte água de novo.",
+    "categoria": "criadouros"
+  },
+  {
     "id": "prevencao_01",
     "enunciado": "Qual é a medida comunitária mais eficaz para conter epidemias de dengue?",
     "alternativas": [
@@ -153,6 +309,162 @@
     ],
     "indiceCorreta": 1,
     "explicacao": "Guardar garrafas viradas de boca para baixo garante que nenhuma gota de água de chuva consiga se acumular no interior delas.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_07",
+    "enunciado": "Em que horário o Aedes aegypti costuma picar mais?",
+    "alternativas": [
+      "Principalmente durante o dia, com mais força no início da manhã e no fim da tarde",
+      "Só de madrugada, quando todos estão dormindo",
+      "Apenas ao meio-dia, no sol mais forte",
+      "Só quando está chovendo"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "Segundo o Ministério da Saúde, o mosquito pica principalmente durante o dia, com mais atividade no início da manhã e no fim da tarde, mas pode picar em outros horários se tiver oportunidade.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_08",
+    "enunciado": "Quem pica as pessoas: o mosquito macho ou a fêmea do Aedes aegypti?",
+    "alternativas": [
+      "Somente o macho, para defender o território",
+      "Os dois picam igualmente",
+      "Nenhum dos dois; a dengue vem da água",
+      "Somente a fêmea, que precisa de sangue para amadurecer os ovos"
+    ],
+    "indiceCorreta": 3,
+    "explicacao": "O Ministério da Saúde explica que só a fêmea pica, porque precisa do sangue para amadurecer os ovos. Ela pode viver de 30 a 45 dias.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_09",
+    "enunciado": "Quais doenças o Aedes aegypti pode transmitir?",
+    "alternativas": [
+      "Gripe, resfriado e sarampo",
+      "Somente a dengue",
+      "Dengue, zika e chikungunya",
+      "Catapora e caxumba"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "O Aedes aegypti transmite dengue, zika e chikungunya. Por isso, eliminar criadouros protege contra as três doenças ao mesmo tempo.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_10",
+    "enunciado": "Como a dengue é transmitida para uma pessoa?",
+    "alternativas": [
+      "Pelo ar, como a gripe",
+      "Pela picada da fêmea do mosquito infectada com o vírus",
+      "Pelo aperto de mão com alguém doente",
+      "Bebendo água da torneira"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "A dengue não passa diretamente de uma pessoa para outra. O vírus chega pela picada da fêmea do Aedes que se infectou antes.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_11",
+    "enunciado": "Por que o fumacê, sozinho, não resolve o problema da dengue?",
+    "alternativas": [
+      "Porque ele só funciona em dias de chuva",
+      "Porque ele atrai mais mosquitos para o bairro",
+      "Porque ele só mata as larvas e deixa os adultos",
+      "Porque ele mata só os mosquitos adultos que estão voando, e os ovos e larvas continuam nos recipientes"
+    ],
+    "indiceCorreta": 3,
+    "explicacao": "O fumacê age apenas sobre mosquitos adultos em voo. Ovos e larvas nos recipientes continuam lá, e o Ministério da Saúde reforça que a eliminação de criadouros é o mais importante.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_12",
+    "enunciado": "Quem vai usar protetor solar e repelente ao mesmo tempo deve aplicar em qual ordem?",
+    "alternativas": [
+      "Protetor solar primeiro e o repelente por último",
+      "Repelente primeiro e protetor solar por cima",
+      "Misturar os dois na mão antes de passar",
+      "Tanto faz a ordem"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "A orientação de órgãos como Anvisa e Conselho Federal de Farmácia é passar o protetor solar primeiro e o repelente por último, seguindo sempre o rótulo.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_13",
+    "enunciado": "Um agente de combate às endemias bateu na sua casa. Qual é a atitude certa?",
+    "alternativas": [
+      "Não abrir a porta em nenhuma situação",
+      "Conferir a identificação, permitir a vistoria e seguir as orientações dele",
+      "Pedir que ele volte só no próximo verão",
+      "Deixar ele aplicar inseticida sem mostrar o quintal"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "Os agentes visitam casas, procuram e tratam criadouros e orientam as famílias. Conferir o crachá e colaborar com a vistoria ajuda a proteger toda a vizinhança.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_14",
+    "enunciado": "Por que o combate à dengue funciona melhor quando o bairro todo participa?",
+    "alternativas": [
+      "Porque o mosquito só pica quem mora sozinho",
+      "Porque a prefeitura só ajuda quem faz mutirão",
+      "Porque um foco em uma única casa pode espalhar mosquitos para os vizinhos",
+      "Porque o mosquito não entra em casas limpas"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "O mosquito circula entre casas próximas. Se um vizinho mantém um criadouro, toda a rua fica em risco, por isso a prevenção coletiva é mais eficaz.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_15",
+    "enunciado": "Em época de muitos casos, uma pessoa tem febre alta e dor no corpo. O que é recomendado?",
+    "alternativas": [
+      "Tomar qualquer remédio que tiver em casa",
+      "Esperar uma semana antes de procurar ajuda",
+      "Procurar uma unidade de saúde e não tomar remédio por conta própria",
+      "Pedir indicação de remédio para um vizinho"
+    ],
+    "indiceCorreta": 2,
+    "explicacao": "Diante de sintomas, o caminho é procurar uma Unidade de Saúde (UBS/UPA). Alguns remédios podem piorar o quadro de dengue, por isso a automedicação deve ser evitada.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_16",
+    "enunciado": "Além do repelente, que medida de proteção individual o Ministério da Saúde recomenda?",
+    "alternativas": [
+      "Usar perfume forte",
+      "Usar calças e camisas de manga comprida para proteger as áreas do corpo onde o mosquito pica",
+      "Andar sempre de roupa clara e curta",
+      "Comer alho todos os dias"
+    ],
+    "indiceCorreta": 1,
+    "explicacao": "O Ministério da Saúde recomenda proteger as áreas do corpo em que o mosquito possa picar, com calças e camisas de mangas compridas.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_17",
+    "enunciado": "Em que período do ano é preciso redobrar a atenção contra o mosquito?",
+    "alternativas": [
+      "No período quente e chuvoso, quando há mais água acumulada",
+      "No período frio e seco, quando chove pouco",
+      "Só nas férias de julho",
+      "Somente no Carnaval"
+    ],
+    "indiceCorreta": 0,
+    "explicacao": "Calor e chuva aceleram o desenvolvimento do mosquito e enchem recipientes de água. Por isso o Ministério da Saúde reforça os cuidados no início do período chuvoso e no verão.",
+    "categoria": "prevencao"
+  },
+  {
+    "id": "prevencao_18",
+    "enunciado": "O que é o Método Wolbachia, usado no Brasil com a participação da Fiocruz?",
+    "alternativas": [
+      "Um inseticida mais forte usado no fumacê",
+      "Uma vacina aplicada direto nos mosquitos",
+      "Uma armadilha elétrica instalada nas casas",
+      "Soltar mosquitos Aedes com a bactéria Wolbachia, que reduz a capacidade deles de transmitir dengue, zika e chikungunya"
+    ],
+    "indiceCorreta": 3,
+    "explicacao": "Mosquitos com a bactéria Wolbachia têm menos capacidade de transmitir os vírus. Ao se reproduzirem, passam a bactéria adiante e a população de mosquitos da região passa a transmitir menos.",
     "categoria": "prevencao"
   }
 ]

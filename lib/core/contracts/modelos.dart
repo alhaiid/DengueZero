@@ -1,5 +1,7 @@
 // Modelos compartilhados entre os módulos do DengueZero (contrato).
 
+import 'dart:math';
+
 /// Categorias das perguntas do quiz.
 enum Categoria {
   criadouros('Criadouros'),
@@ -61,6 +63,24 @@ class Pergunta {
 
   /// Indica se a alternativa de posição [indice] é a correta.
   bool estaCorreta(int indice) => indice == indiceCorreta;
+
+  /// Cópia da pergunta com as alternativas em ordem sorteada.
+  ///
+  /// A resposta certa continua a mesma; só muda a letra em que ela aparece.
+  Pergunta embaralhada(Random aleatorio) {
+    final ordem = List<int>.generate(alternativas.length, (i) => i)
+      ..shuffle(aleatorio);
+    return Pergunta(
+      id: id,
+      enunciado: enunciado,
+      alternativas: List<String>.unmodifiable([
+        for (final indice in ordem) alternativas[indice],
+      ]),
+      indiceCorreta: ordem.indexOf(indiceCorreta),
+      explicacao: explicacao,
+      categoria: categoria,
+    );
+  }
 }
 
 /// De onde veio o texto devolvido pelo assistente.

@@ -2,6 +2,7 @@ import 'package:dengue_zero/core/contracts/modelos.dart';
 import 'package:dengue_zero/core/contracts/regras_pontuacao.dart';
 import 'package:dengue_zero/core/contracts/rotas.dart';
 import 'package:dengue_zero/core/servicos.dart';
+import 'package:dengue_zero/features/quiz/domain/sorteio_partida.dart';
 import 'package:flutter/material.dart';
 
 /// Tela do quiz: uma pergunta por vez, com dica e explicação.
@@ -38,7 +39,8 @@ class _QuizPageState extends State<QuizPage> {
   Future<void> _iniciarQuiz() async {
     List<Pergunta> perguntas;
     try {
-      perguntas = await Servicos.quiz.carregarPerguntas();
+      final banco = await Servicos.quiz.carregarPerguntas();
+      perguntas = SorteioPartida.montar(banco, Servicos.aleatorio);
     } catch (_) {
       perguntas = const [];
     }
